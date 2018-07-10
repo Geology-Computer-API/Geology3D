@@ -1,0 +1,18 @@
+<Window x:Name="Geology3D_MainWindow" x:Class="Geology3D.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Geology3D"
+        mc:Ignorable="d"
+        Title="Geology3D" Height="600" Width="800" Background="Silver">
+
+    <Grid Background="White" >
+        <Label x:Name="LabelTest" Content="Label" Grid.Row="0" Grid.Column="0" />
+        <Viewport3D x:Name="ViewPort3D" Grid.Row="1" Grid.Column="0" >
+            
+        </Viewport3D>
+        <Canvas x:Name="Canvas3D" Grid.Row="1" Grid.Column="0" 
+        Background="Transparent"/>
+    </Grid>
+</Window>
