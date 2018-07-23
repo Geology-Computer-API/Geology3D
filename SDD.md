@@ -63,7 +63,7 @@ Uma vez que o software esteja pronto, estas serão as primeiras características
     1.	Menus de topo (ARQUIVO, EDITAR, VISUALIZAR etc);
     2.	Tela principal: vista 3D
     3.	Todas as ferramentas de desenho e edição em menus laterais;
-    4.	Será possível ter várias janelas, cada uma com uma vista. Por exemplo, uma janela com a vista isométrica, outra com a vista XZ do modelo e outra com a vista YZ. Assim, pode-se desenhar uma camada na vista XZ e visualizar e ajustar esta mesma camada na vista YZ.
+    4.	Será possível ter várias janelas, cada uma com uma vista. Por exemplo, uma janela com a vista isométrica, outra com a vista XZ do modelo e outra com a vista YZ. Assim, pode-se desenhar uma camada na vista XZ e visualizar e ajustar esta mesma camada na vista YZ. ```INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO ```
 5.	Vista 3D inicial mostrará:
     1.	um ícone 3D de eixos X (vermelho), Y (verde) e Z (azul);
     2.	um cubo de visualização igual ao do AutoCAD (mostrando topo, frente, controles de girar a vista etc) no canto superior direito;
@@ -72,39 +72,36 @@ Uma vez que o software esteja pronto, estas serão as primeiras características
 
 ### 7.	FUNCIONAMENTO
 #### 1.	Navegação:
-    1.	Clique esquerdo: desenhar;
-    2.	Clique direito: propriedades e funções adicionais;
-    3.	Barra de espaço + mover mouse (sem clicar botão): pan vista igual ao do QGIS (arrastar a vista na horizontal/vertical/diagonal) OU função invertida com o clique da roda do mouse;
-    4.	Clique da roda do mouse: girar/rotacionar/órbita da vista (orbitar em torno do centro do cubo);
-    5.	Roda do mouse: zoom (para posição do cursor do mouse);
-    6.	Sempre haverá, saindo do cursor, uma reta vertical indo até o “chão” para o usuário sempre ter uma noção de onde, no espaço 3D, está o cursor;
+  1.	Clique esquerdo: desenhar;
+  2.	Clique direito: propriedades e funções adicionais;
+  3.	Barra de espaço + mover mouse (sem clicar botão): pan vista igual ao do QGIS (arrastar a vista na horizontal/vertical/diagonal) OU função invertida com o clique da roda do mouse;
+  4.	Clique da roda do mouse: girar/rotacionar/órbita da vista (orbitar em torno do centro do cubo);
+  5.	Roda do mouse: zoom (para posição do cursor do mouse);
+  6.	Sempre haverá, saindo do cursor, uma reta vertical indo até o “chão” para o usuário sempre ter uma noção de onde, no espaço 3D, está o cursor;
 
 #### 2.	Atalhos (em geral copiados do AutoCAD).
-    1.	Barra de espaço/enter: repete último comando;
-    2.	L: linha
-    3.	PL: polilinha;
-    4.	H: desenho mão livre (“H” de “hand”);
-    5.	U/Ctrl + Z: desfazer;
-    6.	I: interpolar (ver item 3 abaixo);
-    7.	T: terreno (ver item 3 abaixo);
-    8.	F3: liga/desliga SNAP (definir vários modos de SNAP como no AutoCAD: para vértice, perpendicular, mais próximo etc);
-    9.	F8: liga/desliga travar desenho na ortogonal;	
+  1.	Barra de espaço/enter: repete último comando;
+  2.	L: linha
+  3.	PL: polilinha;
+  4.	H: desenho mão livre (“H” de “hand”);
+  5.	U/Ctrl + Z: desfazer;
+  6.	I: interpolar (ver item 3 abaixo);
+  7.	T: terreno (ver item 3 abaixo);
+  8.	F3: liga/desliga SNAP (definir vários modos de SNAP como no AutoCAD: para vértice, perpendicular, mais próximo etc);
+  9.	F8: liga/desliga travar desenho na ortogonal;	
 
 #### 3.	Edição/Desenho:
-    1.	Possibilidade de selecionar por vértice, linha ou plano;
-    2.	A ferramenta padrão será sempre a polilinha. Com o Ctrl pressionado, o usuário poderá desenhar uma reta ortogonal a qualquer um dos eixos X, Y e Z.
-INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO
-    3.	Possibilidade de se carregar uma imagem para ficar no fundo. Como por exemplo um perfil desenhado a mão e escaneado, para servir de base para o desenho. Uma vez posicionado no espaço 3D, o plano contendo a imagem irá rotacionar junto com o todo o desenho.
-    4.	Se o usuário desenhar dois perfis e no Perfil A houver a camada 1, e no Perfil B, não, o software irá interpolar todas as camadas, fazendo a camada 1 sumir gradualmente do Perfil A para o Perfil B.
-INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO
-    5.	Para desenho de perfil em 2D, incluir um menu para seleção de quais eixos se quer desenhar (exemplo: XY, XZ, YZ ou planos inclinados). Com isso, ao posicionar o mouse sobre o modelo 3D, uma pequena janela junto ao cursor vai mostrar uma prévia da fatia a ser mostrada no perfil 2D
-INSERIR GIF DO EXEMPLO DO QT MOSTRANDO ESTA FUNÇÃO
+  1.	Possibilidade de selecionar por vértice, linha ou plano;
+  2.	A ferramenta padrão será sempre a polilinha. Com o Ctrl pressionado, o usuário poderá desenhar uma reta ortogonal a qualquer um dos eixos X, Y e Z. ```INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO```
+  3.	Possibilidade de se carregar uma imagem para ficar no fundo. Como por exemplo um perfil desenhado a mão e escaneado, para servir de base para o desenho. Uma vez posicionado no espaço 3D, o plano contendo a imagem irá rotacionar junto com o todo o desenho.
+  4.	Se o usuário desenhar dois perfis e no Perfil A houver a camada 1, e no Perfil B, não, o software irá interpolar todas as camadas, fazendo a camada 1 sumir gradualmente do Perfil A para o Perfil B. ```INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO
+  5.	Para desenho de perfil em 2D, incluir um menu para seleção de quais eixos se quer desenhar (exemplo: XY, XZ, YZ ou planos inclinados). Com isso, ao posicionar o mouse sobre o modelo 3D, uma pequena janela junto ao cursor vai mostrar uma prévia da fatia a ser mostrada no perfil 2D. ```INSERIR GIF DO EXEMPLO DO QT MOSTRANDO ESTA FUNÇÃO
 
 
 #### 4.	Ferramentas/Comandos Especiais.
-    1.	Terreno: se ativo, qualquer linha que o usuário desenhar acima da superfície do terreno irá modificar a superfície. Isto irá possibilitar um esboço rápido em 2D de um perfil contendo um morro, uma depressão (lago, canal de rio etc) ou superfícies irregulares, que poderão ser expandidos em outras direções para formar um volume 3D;
-    2.	Interpolar: dependendo do modo de seleção, irá interpolar entre elementos selecionados: 2 vértices = 1 linha, 2 linhas = 1 plano (TIN), 2 planos = 1 sólido (vários TINs);
-    3.	Otimizar desenho mão livre (2D) para polilinha ou spline: se ativada esta função, o usuário poderá desenhar uma forma complexa com a ferramenta de mão livre, e o software irá otimizar a forma para um spline ou para polilinhas (segmentos de reta). No caso de polilinhas, haverá opção para escolher, de 0 a 10, qual o grau de otimização (0 poucos segmentos de reta, 10 muitos segmentos).
+  1.	Terreno: se ativo, qualquer linha que o usuário desenhar acima da superfície do terreno irá modificar a superfície. Isto irá possibilitar um esboço rápido em 2D de um perfil contendo um morro, uma depressão (lago, canal de rio etc) ou superfícies irregulares, que poderão ser expandidos em outras direções para formar um volume 3D;
+  2.	Interpolar: dependendo do modo de seleção, irá interpolar entre elementos selecionados: 2 vértices = 1 linha, 2 linhas = 1 plano (TIN), 2 planos = 1 sólido (vários TINs);
+  3.	Otimizar desenho mão livre (2D) para polilinha ou spline: se ativada esta função, o usuário poderá desenhar uma forma complexa com a ferramenta de mão livre, e o software irá otimizar a forma para um spline ou para polilinhas (segmentos de reta). No caso de polilinhas, haverá opção para escolher, de 0 a 10, qual o grau de otimização (0 poucos segmentos de reta, 10 muitos segmentos).
 
 ### 8.	REFERÊNCIAS BIBLIOGRÁFICAS
 Incluir referências de trabalhos acadêmicos com pesquisa em algoritmos de interpolação para geração de modelo geológico, sites de softwares de modelagem etc.
