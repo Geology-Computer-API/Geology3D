@@ -63,7 +63,7 @@ Uma vez que o software esteja pronto, estas serão as primeiras características
     1.	Menus de topo (ARQUIVO, EDITAR, VISUALIZAR etc);
     2.	Tela principal: vista 3D
     3.	Todas as ferramentas de desenho e edição em menus laterais;
-    4.	Será possível ter várias janelas, cada uma com uma vista. Por exemplo, uma janela com a vista isométrica, outra com a vista XZ do modelo e outra com a vista YZ. Assim, pode-se desenhar uma camada na vista XZ e visualizar e ajustar esta mesma camada na vista YZ. ```INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO ```
+    4.	Será possível ter várias janelas, cada uma com uma vista. Por exemplo, uma janela com a vista isométrica, outra com a vista XZ do modelo e outra com a vista YZ. Assim, pode-se desenhar uma camada na vista XZ e visualizar e ajustar esta mesma camada na vista YZ. `INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO`
 5.	Vista 3D inicial mostrará:
     1.	um ícone 3D de eixos X (vermelho), Y (verde) e Z (azul);
     2.	um cubo de visualização igual ao do AutoCAD (mostrando topo, frente, controles de girar a vista etc) no canto superior direito;
@@ -92,10 +92,10 @@ Uma vez que o software esteja pronto, estas serão as primeiras características
 
 #### 3.	Edição/Desenho:
   1.	Possibilidade de selecionar por vértice, linha ou plano;
-  2.	A ferramenta padrão será sempre a polilinha. Com o Ctrl pressionado, o usuário poderá desenhar uma reta ortogonal a qualquer um dos eixos X, Y e Z. ```INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO```
+  2.	A ferramenta padrão será sempre a polilinha. Com o Ctrl pressionado, o usuário poderá desenhar uma reta ortogonal a qualquer um dos eixos X, Y e Z. `INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO`
   3.	Possibilidade de se carregar uma imagem para ficar no fundo. Como por exemplo um perfil desenhado a mão e escaneado, para servir de base para o desenho. Uma vez posicionado no espaço 3D, o plano contendo a imagem irá rotacionar junto com o todo o desenho.
-  4.	Se o usuário desenhar dois perfis e no Perfil A houver a camada 1, e no Perfil B, não, o software irá interpolar todas as camadas, fazendo a camada 1 sumir gradualmente do Perfil A para o Perfil B. ```INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO
-  5.	Para desenho de perfil em 2D, incluir um menu para seleção de quais eixos se quer desenhar (exemplo: XY, XZ, YZ ou planos inclinados). Com isso, ao posicionar o mouse sobre o modelo 3D, uma pequena janela junto ao cursor vai mostrar uma prévia da fatia a ser mostrada no perfil 2D. ```INSERIR GIF DO EXEMPLO DO QT MOSTRANDO ESTA FUNÇÃO
+  4.	Se o usuário desenhar dois perfis e no Perfil A houver a camada 1, e no Perfil B, não, o software irá interpolar todas as camadas, fazendo a camada 1 sumir gradualmente do Perfil A para o Perfil B. `INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO`
+  5.	Para desenho de perfil em 2D, incluir um menu para seleção de quais eixos se quer desenhar (exemplo: XY, XZ, YZ ou planos inclinados). Com isso, ao posicionar o mouse sobre o modelo 3D, uma pequena janela junto ao cursor vai mostrar uma prévia da fatia a ser mostrada no perfil 2D. `INSERIR GIF DO EXEMPLO DO QT MOSTRANDO ESTA FUNÇÃO`
 
 
 #### 4.	Ferramentas/Comandos Especiais.
