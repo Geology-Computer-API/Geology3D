@@ -71,7 +71,7 @@ Uma vez que o software esteja pronto, estas serão as primeiras características
     4.	Curvas de nível podem ser ativadas/desativadas e pode-se editar espaçamento entre curvas e mostrar curvas mestras;
 
 ### 7.	FUNCIONAMENTO
-1.	Navegação:
+#### 1.	Navegação:
     1.	Clique esquerdo: desenhar;
     2.	Clique direito: propriedades e funções adicionais;
     3.	Barra de espaço + mover mouse (sem clicar botão): pan vista igual ao do QGIS (arrastar a vista na horizontal/vertical/diagonal) OU função invertida com o clique da roda do mouse;
@@ -79,7 +79,7 @@ Uma vez que o software esteja pronto, estas serão as primeiras características
     5.	Roda do mouse: zoom (para posição do cursor do mouse);
     6.	Sempre haverá, saindo do cursor, uma reta vertical indo até o “chão” para o usuário sempre ter uma noção de onde, no espaço 3D, está o cursor;
 
-2.	Atalhos (em geral copiados do AutoCAD).
+#### 2.	Atalhos (em geral copiados do AutoCAD).
     1.	Barra de espaço/enter: repete último comando;
     2.	L: linha
     3.	PL: polilinha;
@@ -90,7 +90,7 @@ Uma vez que o software esteja pronto, estas serão as primeiras características
     8.	F3: liga/desliga SNAP (definir vários modos de SNAP como no AutoCAD: para vértice, perpendicular, mais próximo etc);
     9.	F8: liga/desliga travar desenho na ortogonal;	
 
-3.	Edição/Desenho:
+#### 3.	Edição/Desenho:
     1.	Possibilidade de selecionar por vértice, linha ou plano;
     2.	A ferramenta padrão será sempre a polilinha. Com o Ctrl pressionado, o usuário poderá desenhar uma reta ortogonal a qualquer um dos eixos X, Y e Z.
 INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO
@@ -101,7 +101,7 @@ INSERIR GIF MOSTRANDO O FUNCIONAMENTO DESTA FUNÇÃO
 INSERIR GIF DO EXEMPLO DO QT MOSTRANDO ESTA FUNÇÃO
 
 
-4.	Ferramentas/Comandos Especiais.
+#### 4.	Ferramentas/Comandos Especiais.
     1.	Terreno: se ativo, qualquer linha que o usuário desenhar acima da superfície do terreno irá modificar a superfície. Isto irá possibilitar um esboço rápido em 2D de um perfil contendo um morro, uma depressão (lago, canal de rio etc) ou superfícies irregulares, que poderão ser expandidos em outras direções para formar um volume 3D;
     2.	Interpolar: dependendo do modo de seleção, irá interpolar entre elementos selecionados: 2 vértices = 1 linha, 2 linhas = 1 plano (TIN), 2 planos = 1 sólido (vários TINs);
     3.	Otimizar desenho mão livre (2D) para polilinha ou spline: se ativada esta função, o usuário poderá desenhar uma forma complexa com a ferramenta de mão livre, e o software irá otimizar a forma para um spline ou para polilinhas (segmentos de reta). No caso de polilinhas, haverá opção para escolher, de 0 a 10, qual o grau de otimização (0 poucos segmentos de reta, 10 muitos segmentos).
